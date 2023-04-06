@@ -11,6 +11,10 @@
     padding-bottom: 8px;
 }
 
+.menu-scrollable{
+    overflow-y: overlay;
+}
+
 //Menu Items
 .menu-item {
     width: 100%;
@@ -31,9 +35,10 @@
 
 //Header
 .header {
-    margin-top: -8px;
     position: relative;
+    flex-shrink: 0;
     height: 50px;
+    margin-top: -8px;
 }
 
 .back-btn {
